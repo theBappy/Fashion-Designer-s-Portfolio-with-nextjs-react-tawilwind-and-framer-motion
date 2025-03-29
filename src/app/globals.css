@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --font-archivo: Archivo, sans-serif;
+    --red-orange-500: color-mix(in srgb, red 50%, orange 50%);
+}
+.section {
+    @apply py-24 md:py-32 lg:py-40;
+}
+
+.line {
+    @apply overflow-hidden;
+}
+.word {
+    @apply translate-y-full;
+}
+  
